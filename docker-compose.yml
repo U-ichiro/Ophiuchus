@@ -1,0 +1,6 @@
+python:
+    image: python:2.7
+    working_dir: /data
+    volumes:
+      - ./:/data
+    command: "tail -f /dev/null"
